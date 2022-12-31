@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ABa-bA-wEh">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NetworkManager" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Turn Off Internet To Test" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BIH-gl-2Ma">
+                                <rect key="frame" x="20" y="420.66666666666669" width="353" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BIH-gl-2Ma" secondAttribute="trailing" constant="20" id="FUg-zH-Fam"/>
+                            <constraint firstItem="BIH-gl-2Ma" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="SsE-VR-RxD"/>
+                            <constraint firstItem="BIH-gl-2Ma" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="m7f-kJ-yR4"/>
+                            <constraint firstItem="BIH-gl-2Ma" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="oUY-tS-F82"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48" y="-2"/>
+        </scene>
+        <!--Tab Bar View Controller2-->
+        <scene sceneID="N3K-by-cd9">
+            <objects>
+                <viewController id="PSM-kl-pS0" customClass="TabBarViewController2" customModule="NetworkManager" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mvq-Wr-WDR">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Turn Off Internet To Test" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iCm-J6-WOd">
+                                <rect key="frame" x="20" y="418" width="353" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hP6-ub-KMQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hP6-ub-KMQ" firstAttribute="trailing" secondItem="iCm-J6-WOd" secondAttribute="trailing" constant="20" id="9xm-As-hz4"/>
+                            <constraint firstItem="iCm-J6-WOd" firstAttribute="centerY" secondItem="hP6-ub-KMQ" secondAttribute="centerY" id="PCp-Gy-Y2e"/>
+                            <constraint firstItem="iCm-J6-WOd" firstAttribute="centerX" secondItem="hP6-ub-KMQ" secondAttribute="centerX" id="Z3y-n8-Jga"/>
+                            <constraint firstItem="iCm-J6-WOd" firstAttribute="leading" secondItem="hP6-ub-KMQ" secondAttribute="leading" constant="20" id="ZrD-38-XhQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="mWc-Oh-FEJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cXo-yK-DUH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2394.6564885496182" y="1312.6760563380283"/>
+        </scene>
+        <!--Tab Bar View Controller1-->
+        <scene sceneID="abp-q2-PXb">
+            <objects>
+                <viewController id="Mrd-Fs-lOV" customClass="TabBarViewController1" customModule="NetworkManager" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Naa-Nq-WdY">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Turn Off Internet To Test" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Pc-cK-D6M">
+                                <rect key="frame" x="20" y="418" width="353" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Nh5-EQ-BaR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Nh5-EQ-BaR" firstAttribute="trailing" secondItem="2Pc-cK-D6M" secondAttribute="trailing" constant="20" id="HC7-Ps-HBd"/>
+                            <constraint firstItem="2Pc-cK-D6M" firstAttribute="centerY" secondItem="Nh5-EQ-BaR" secondAttribute="centerY" id="a3d-ku-naD"/>
+                            <constraint firstItem="2Pc-cK-D6M" firstAttribute="leading" secondItem="Nh5-EQ-BaR" secondAttribute="leading" constant="20" id="fdn-It-GwN"/>
+                            <constraint firstItem="2Pc-cK-D6M" firstAttribute="centerX" secondItem="Nh5-EQ-BaR" secondAttribute="centerX" id="l4T-Ie-BEG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="LKt-2z-vsI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kmj-CD-WKD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2394.6564885496182" y="514.78873239436621"/>
+        </scene>
+        <!--Main Tab Bar-->
+        <scene sceneID="aA4-si-Nb7">
+            <objects>
+                <tabBarController id="ABa-bA-wEh" customClass="MainTabBar" customModule="NetworkManager" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pNt-3X-zNV">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="kX4-5l-ww1" kind="relationship" relationship="viewControllers" id="y1O-Ri-dZ2"/>
+                        <segue destination="wsi-a2-AKM" kind="relationship" relationship="viewControllers" id="4Y5-AC-JzF"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7mB-Ku-0vf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47" y="822"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="18j-Od-krO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kX4-5l-ww1" customClass="MasterNavigationController" customModule="NetworkManager" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item 1" image="beats.headphones" catalog="system" selectedImage="headphones" id="4Ju-5H-erK"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xxU-KI-aaN">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Mrd-Fs-lOV" kind="relationship" relationship="rootViewController" id="Wev-6j-giZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="27B-h1-sSi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1467.9389312977098" y="514.78873239436621"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="zFW-zI-Q1U">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wsi-a2-AKM" customClass="MasterNavigationController" customModule="NetworkManager" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item 2" image="heart" catalog="system" selectedImage="heart.fill" id="cYT-ne-9BT"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dcb-s4-fXw">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="PSM-kl-pS0" kind="relationship" relationship="rootViewController" id="yGY-tg-NAD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T7B-oX-nye" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1467.9389312977098" y="1312.6760563380283"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="beats.headphones" catalog="system" width="128" height="121"/>
+        <image name="headphones" catalog="system" width="128" height="121"/>
+        <image name="heart" catalog="system" width="128" height="107"/>
+        <image name="heart.fill" catalog="system" width="128" height="107"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

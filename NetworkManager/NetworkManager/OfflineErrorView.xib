@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OfflineErrorView" customModule="GradeupiOS" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="HbY-bx-MTS"/>
+                <outlet property="lblNoInternet" destination="NYd-w8-1dR" id="iaW-7a-WXz"/>
+                <outlet property="lblTryAgain" destination="tRV-nz-trP" id="DJz-YU-qYe"/>
+                <outlet property="lottieVIew" destination="Hak-SV-Zbj" id="vje-ec-d5f"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="Content View">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hak-SV-Zbj">
+                    <rect key="frame" x="88" y="329" width="238" height="238"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="238" id="b8y-1D-Mf5"/>
+                        <constraint firstAttribute="width" constant="238" id="qdd-XS-s9q"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NYd-w8-1dR">
+                    <rect key="frame" x="20" y="532" width="374" height="0.0"/>
+                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
+                    <color key="textColor" name="color_333333"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tRV-nz-trP">
+                    <rect key="frame" x="20" y="540" width="374" height="0.0"/>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                    <color key="textColor" name="color_808080"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" name="color_ffffff"/>
+            <constraints>
+                <constraint firstItem="Hak-SV-Zbj" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Bdj-Ca-2Pj"/>
+                <constraint firstItem="tRV-nz-trP" firstAttribute="top" secondItem="NYd-w8-1dR" secondAttribute="bottom" constant="8" id="HFi-y7-avi"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="tRV-nz-trP" secondAttribute="trailing" constant="20" id="HkL-y7-jy3"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="NYd-w8-1dR" secondAttribute="trailing" constant="20" id="TON-Wf-DmJ"/>
+                <constraint firstItem="NYd-w8-1dR" firstAttribute="top" secondItem="Hak-SV-Zbj" secondAttribute="bottom" constant="-35" id="cBV-JA-h7W"/>
+                <constraint firstItem="Hak-SV-Zbj" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="lja-uw-3gL"/>
+                <constraint firstItem="NYd-w8-1dR" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="vyd-OC-DWz"/>
+                <constraint firstItem="tRV-nz-trP" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="xJl-2E-Q9c"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="95.758928571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="color_333333">
+            <color red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="color_808080">
+            <color red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="color_ffffff">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
